@@ -1,0 +1,352 @@
+miazul = #00AFD7
+azul_fuerte = #0096D7
+azul_debil = #ddFFFF
+gris = #444
+gris_claro = #EEE
+rojo=rgb(220,210,180)
+
+
+.contenedor
+	padding 0.5em
+	background white
+	font-family Arial
+	font-size 16px
+	.contenedor1
+		float left
+		height 450px
+		width 400px
+		padding 0.1em
+		border-radius 10px
+		
+		h1
+			font-size 1.4em
+			color miazul
+			margin 0px
+			padding 10px
+			border-bottom 1px solid azul_fuerte
+
+		.menu 
+			height 400px
+			margin-top 0.4em
+			background azul_debil
+			overflow-y auto
+			.item
+				background miazul
+				display block
+				padding 0.4em
+				color white
+				border-bottom 1px solid azul_fuerte
+				border-radius 10px
+				.nombre
+					color white
+				.pedir
+					border-radius 50%
+					height 22px
+					width 20px
+					background gris_claro
+					border 5px	 solid azul_fuerte
+					font-size 0.7em
+					color white
+					text-decoration none
+					float right
+					&:active
+						background azul_fuerte
+						border 6px solid azul_debil
+
+	.contenedor2
+		height 450px
+		width 250px	
+		display inline
+		
+		.reportero
+			background azul_fuerte
+			margin 10px 0 0 10px
+			width 200px
+			height 430px
+			padding 10px
+			float left
+			border-radius 10px
+			.pregunta
+				margin-bottom 10px
+				color white
+				.respuestas
+					background azul_debil
+					padding 3px
+					height 300px
+					margin-bottom 10px
+					border-radius 10px
+					.tag
+						display inline
+						.boton_tag
+							margin 1px
+							background white
+							border-radius 10px
+							border solid 2px azul_fuerte
+							color azul_fuerte
+						.tag_activo
+							background red
+							background azul_fuerte
+							color white
+				.boton_destruir
+					margin-left 1%
+					display block
+					padding 0.5em
+					border solid 2px azul_debil
+					border-radius 10px
+					font-size 15px
+					color white
+					text-decoration none
+					text-align center
+					height 20px
+					width 180px
+					background azul_fuerte
+	.contenedor3		
+		.orden
+				margin 10px 0 0 0
+				float right
+				height 450px
+				width 380px
+				padding 0.1em
+				background miazul
+				border-radius 10px
+				.miorden
+					font-size 1em
+					color white
+					margin 0px
+					padding 10px
+					border-bottom 1px solid azul_debil
+				.pedidos
+					margin 0
+					height 400px
+					overflow-y auto
+				
+					.pedido
+						display block
+						padding 0.6em
+						color white
+						border-bottom 1px solid azul_fuerte
+						.nombre
+							color white
+							font-size 0.8em
+						.cancelar
+							background miazul
+							border 1px solid white
+							border-radius 5px
+							padding 4px
+							color white
+							font-size 0.7em
+							text-decoration none
+							float right
+
+.contenedor_cocina
+	padding 0.5em
+	background white
+	font-family Arial
+	font-size 16px
+	.contenedor
+		margin-left 8em
+		float left
+		height 450px
+		width 50em
+		padding 0.1em
+		
+		h1
+			font-size 1.4em
+			color miazul
+			margin 0px
+			padding 10px
+			border-bottom 1px solid azul_fuerte
+		.orden 
+			height 500px
+			margin-top 0.2em
+			background azul_debil
+			overflow-y auto
+			.item
+				height auto
+				width 97%
+				background miazul
+				display block
+				padding 0.2em 0.3em 0 1em
+				color white
+				border-bottom 1px solid azul_fuerte
+				position relative
+				overflow-y auto
+				.div_nombre
+					float left
+					.nombre
+						height 20px
+						color white
+				.div_mesa
+					position absolute
+					margin-left 400px
+					.mesa
+						margin 0 0 0 0
+						color black
+						height 20px
+				
+				.div_hecho
+					margin 10px
+					float right
+					padding-left 2em
+					font-size 0.7em
+					color black
+					font-size 10px
+					text-decoration none
+					.hecho
+						height 40px
+						font-size 20px
+						border-radius 20%
+						border solid 1px azul_fuerte
+				.restriccion
+					width 96%
+					overflow-y auto
+					height 40px
+					background white
+					color black
+				
+
+.contenedorlogin
+	
+	font-size 16px
+	width 40%
+	margin 5% 30% 5% 30% 
+	color azul_debil
+	.contenedor_logo
+		background white
+		margin-top 50px
+		margin-bottom -10px
+		width 100%
+		border-radius 10px 10px 0 0
+		.logo
+			margin 0 0 0 0
+			width 200px
+			.imagen
+				border solid 10px white
+				padding-top 1em
+				margin-left 65%
+				width 150px
+				border-radius 50px
+
+	.login
+		padding 2px
+		background azul_fuerte
+		border-radius 5px 5px 5px 5px
+		width 100%
+		height 220px
+		.etiqueta
+			margin-left 0.3em
+			margin-bottom 1em
+			border-bottom 0.1em solid azul_debil
+		.textbox
+			margin-left 1%
+			width 96%
+			display block
+		.boton
+			background azul_fuerte
+			color white
+			border solid 6px azul_debil
+			padding 0.5em 0 0.5em 0
+			width 98%
+			margin 3% 1% 0 1%
+			border-radius 50px
+.contenedor_confirmar
+	width 500px
+	margin auto auto 
+	overflow-y auto
+
+	.contenedor_logo	
+		margin 10px 0 10px 0
+		width 100% 
+		height 100px
+		display inline-block
+		
+		.imagen	
+			border-radius 50% 50% 50% 50%
+			height 100%
+			margin 0 0 0 30%
+	.detalles 
+		border-radius 10px
+		margin -5px 0 0 0
+		display inline-block
+		height 260px
+		background azul_fuerte
+		overflow-y auto
+		width 100%
+		.etiqueta
+			margin 2% 0 0 10% 
+			width 90%
+			height 20%
+			color white
+		.div_titulo
+			float left
+			background azul_debil
+			height 74%	
+			width 49%
+			overflow-y auto
+			border-radius 10px
+			margin-left 3px
+			h3
+				margin 5% 0 5% 5%
+			.contenedor_foto
+				border 1px solid black
+				padding 8px 
+				background azul_debil
+				margin 0 15px 0 15px		
+				width 194px
+				height 124px
+				.foto
+					border 2px solid azul_fuerte
+					width 190px
+					height 120px
+		
+		.div_descripcion
+			background azul_fuerte
+			width 49%
+			height 74%
+			float right 
+			border solid 2px white
+			h3 
+				margin 5% 0 5% 10px
+			.descripcion
+				margin 1% 4% 1% 4%
+				padding 2% 2% 2% 3% 
+				height 65%
+				background white 
+				overflow-y auto
+				
+	.div_restriccion 
+		border-radius 0 0 20% 20%
+		margin -7px 0 0 0
+		background azul_debil
+		display inline-block
+		width 100%
+		.titulo  
+			display inline-block
+			margin 10px 0 10px 10px
+			height 5%	
+			font-size 18px
+			font-style bold
+		.restriccion 
+			margin 10px 0 10px 0
+			display inline-block
+			width 95%
+			height 50px
+			margin 0 0 0 2%
+		.ordenar	
+			border-radius 0 0 20px 20px
+			border solid 2px azul_debil
+			font-size 20px
+			text-align center
+			padding 5px 0 0 0
+			float right
+			display inline-block
+			margin 10px 0 0 0
+			width 100%
+			background azul_fuerte
+			display inline-block
+			height 40px
+			text-decoration none
+			color white
+
+
+
